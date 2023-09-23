@@ -3,6 +3,7 @@
 //int check_num();
 //void user(void);
 
+
 int main(void)
 {
 	int first_num = 0;
