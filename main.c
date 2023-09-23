@@ -62,10 +62,6 @@ int main(void)
 			}		 
 			user_want = 0;
         	}
-		else if(user_want == 0)
-		{
-			;		
-		}
         	else 
         	{
                 	printf("incorrect symbol \n");
