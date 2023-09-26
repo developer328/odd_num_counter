@@ -82,10 +82,9 @@ void error(char which){
 void print_numbers(void){
 
 	int even_odd = 0;
+	long count = 0;
 
 	for(char x = 0; x < 2; x++){
-	
-		long count = 0;
 	
 		printf("\n");
 		printf("\n");
@@ -118,6 +117,11 @@ void print_numbers(void){
 				}
 			}
 		}
+		printf("\n");
+		printf("\n");
+		printf("count = %li", count);
+		printf("\n");
+		count = 0;
 	}
 }
 
