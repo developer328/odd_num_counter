@@ -1,4 +1,4 @@
 all:
-	gcc -c main.c
-	gcc -o main main.o
-	rm main.o
+	gcc -c main1.c
+	gcc -o main1 main1.o
+	rm main1.o
