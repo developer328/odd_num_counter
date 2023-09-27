@@ -22,8 +22,8 @@ void loop(void){
 	while(1){
 		printf("\n");
 		printf("if num1 > num2 : num1 = num2 and num2 = num1\n");
-		printf("if numx > 2000000 : numx = 2000000\n");
-		printf("if numx < -2000000 : numx = -2000000\n");
+		printf("if numx > 2,000,000,000 : numx = 2,000,000,000\n");
+		printf("if numx < -2,000,000,000 : numx = -2,000,000,000\n");
 		printf("\n");
 		printf("1. quit \n");
 		printf("2. run \n");
@@ -69,7 +69,7 @@ void error(char which){
 	printf("\n");
 	if(which == 1){
 		printf("incorrect number \n");
-		printf("1 = run, 2 = wuit \n");
+		printf("1 = run, 2 = quit \n");
 
 	}else if(which == 2){
 		printf("dont use characters or strings \n");
@@ -128,16 +128,16 @@ void print_numbers(void){
 
 
 void limiter(){
-	if(num1 > 2000000){
-		num1 = 2000000;
-	}else if(num1 < -2000000){
-		num1 = -2000000;
+	if(num1 > 2000000000){
+		num1 = 2000000000;
+	}else if(num1 < -2000000000){
+		num1 = -2000000000;
 	}
 
-	if(num2 > 2000000){
-		num2 = 2000000;
-	}else if(num2 < -2000000){
-		num2 = -2000000;
+	if(num2 > 2000000000){
+		num2 = 2000000000;
+	}else if(num2 < -2000000000){
+		num2 = -2000000000;
 	}
 
 	if(num1 > num2){
